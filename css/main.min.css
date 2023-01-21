@@ -561,6 +561,9 @@
   border-radius: 50%;
   cursor: pointer;
 }
+.modal__closeBtn:hover {
+  color: #2196f3;
+}
 .modal__textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
