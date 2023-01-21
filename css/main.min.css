@@ -322,6 +322,7 @@
   gap: 30px;
   justify-content: center;
   list-style: none;
+  margin-bottom: 60px;
 }
 .our-customers__icon-box {
   fill: #b8afaf;
@@ -347,7 +348,7 @@
 
 .footer {
   background-color: #2f303a;
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 }
 .footer__center {
   flex-direction: column;
@@ -365,9 +366,10 @@
   list-style: none;
 }
 .footer__addres--margin {
-  margin: 20px;
+  margin: 20px 0 60px;
 }
 .footer__address-city {
+  font-size: 14px;
   text-decoration: none;
   font-style: normal;
   line-height: 2;
@@ -418,6 +420,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  margin-bottom: 20px;
 }
 .footer__social-media {
   display: flex;
@@ -501,6 +504,7 @@
   border: 0px;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 .footer__svgSignUp {
   position: absolute;
