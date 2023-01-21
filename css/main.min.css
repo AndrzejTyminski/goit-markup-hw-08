@@ -825,14 +825,12 @@ textarea::placeholder {
   align-items: center;
   justify-content: flex-end;
   justify-content: center;
+  margin-right: 15px;
   padding: 0;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
-}
-.menu-toggl--svg:hover {
-  fill: #2196f3;
 }
 
 @media (min-width: 768px) {
@@ -847,10 +845,41 @@ textarea::placeholder {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
+  background-color: #fff;
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+}
+.menu-container--margin-top {
+  margin-top: 64px;
+}
+.menu-container__media {
+  display: inline-block;
+  margin-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+}
+.menu-container__media--rmargin {
+  border-right: 0px;
+}
+.menu-container__media a {
+  color: #2196f3;
+  text-decoration: none;
+}
+.menu-container__flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-container__tel {
+  font-size: 40px;
+  color: #2196f3;
+}
+.menu-container__email {
+  font-size: 24px;
+  color: #757575;
+  text-decoration: none;
 }
 
 .menu-container.is-open {
@@ -872,9 +901,18 @@ textarea::placeholder {
 
 .mobile-menu .link {
   display: block;
+  font-size: 40px;
   padding: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+}
+
+.mobile-x {
+  fill: #212121;
+}
+.mobile-x:hover {
+  fill: #2196f3;
+  color: #2196f3;
 }
 
 body {
