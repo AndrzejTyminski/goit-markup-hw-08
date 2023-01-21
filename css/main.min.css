@@ -239,6 +239,17 @@
   margin: 0;
   margin-bottom: 30px;
 }
+.member__member {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.member__thumb {
+  height: 460px;
+  width: 450px;
+}
 .member__title {
   text-align: center;
   padding-top: 60px;
