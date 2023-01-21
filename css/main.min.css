@@ -246,10 +246,6 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-.member__thumb {
-  height: 460px;
-  width: 450px;
-}
 .member__title {
   text-align: center;
   padding-top: 60px;
