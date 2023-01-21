@@ -1,6 +1,16 @@
 .main-banner {
-  display: flex;
-  flex-direction: column;
+
+
+
+  &__wrapper
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 480px;
+    margin: 0 auto;
+    height: 400px;
+  }
 
   &__text {
     font-family: roboto;
@@ -8,17 +18,19 @@
     color: $white;
     font-weight: 900;
     text-align: center;
-    font-size: 44px;
+    font-size: 26px;
     margin: 0px;
-    padding-top: 121px;
+    // padding-top: 121px;
     margin-bottom: 30px;
+    line-height: 42px;
   }
 
   &__btn {
     color: var(--dark-black);
     background-color: $light-gray;
     box-sizing: border-box;
-    height: 38px;
+    height: 50px;
+    width: 200px;
     padding: 0 24px;
     border: none;
     border-radius: 0.2em;
@@ -40,7 +52,9 @@
       background-color: $blue-hover;
     }
     &--margin {
-      margin-bottom: 106px;
+      margin: 0 auto;
+      // margin-bottom: 118px;
+
     }
   }
 }

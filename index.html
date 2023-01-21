@@ -29,25 +29,11 @@
   <body>
     <header class="header-line">
       <div class="container">
+        <div class="main-nav__mobile-flex">
 
 
-      <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu">
-        <svg
-          width="24"
-          height="24"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"></path>
-        </svg>
-      </button>
 
+          
 
         <div class="main-nav">
           <div class="main-nav__logo-apk">
@@ -86,7 +72,28 @@
             </li>
           </ul>
         </div>
+
+
+        <button
+        class="menu-toggl js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu">
+        <svg class="menu-toggl--svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+        
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+
       </div>
+    </div>
     </header>
   
 
@@ -94,13 +101,17 @@
       <section class="section section--image-overlay ">
         <div class="container">
           <section class="main-banner">
-            <h1 class="main-banner__text">
+            <div class="main-banner__wrapper">            
+              <h1 class="main-banner__text">
               EFEKTYWNE ROZWIĄZANIA <br />
               DLA WASZEGO BIZNESU
             </h1>
             <button class="main-banner__btn main-banner__btn--margin" type="button" data-modal-open>
               Zamów usługę
             </button>
+          
+          </div>
+
           </section>
         </div>
       </section>
@@ -110,98 +121,107 @@
         <div class="container">
           <ul class="img-row img-row--nowrap">
             <li>
+              <div class="img-row__box">
               <svg
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:ev="http://www.w3.org/2001/xml-events"
-                height="120"
-                width="270"
+                width="70"
+                height="70"
               >
-                <rect height="120" width="270" fill="#F5F4FA" rx="4" />
-
+                
                 <use
                   height="60"
                   width="65"
-                  x="102"
-                  y="30"
+                  x="0"
+                  y="0"
                   href="./images/icons.svg#icon-antenna-1"
                 ></use>
               </svg>
+            </div>
 
               <h3 class="img-row__h3">lorem ipsum</h3>
               <p class="img-row__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam culpa quisquam natus velit, sit totam provident
-                placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
-                illum nulla! Tempore, corrupti asperiores?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
+              <div class="img-row__box">
               <svg
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:ev="http://www.w3.org/2001/xml-events"
-                height="120"
-                width="270"
+                width="70"
+                height="70"
               >
-                <rect height="120" width="270" fill="#F5F4FA" rx="4" />
-
+                
                 <use
                   height="60"
                   width="65"
-                  x="102"
-                  y="30"
+                  x="0"
+                  y="0"
                   href="./images/icons.svg#icon-clock-1"
                 ></use>
               </svg>
+            </div>
+
               <h3 class="img-row__h3">lorem ipsum</h3>
               <p class="img-row__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam culpa quisquam natus velit, sit totam provident
-                placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
-                illum nulla! Tempore, corrupti asperiores?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <svg height="120" width="270">
-                <rect height="120" width="270" fill="#F5F4FA" rx="4" />
-
+              <div class="img-row__box">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:ev="http://www.w3.org/2001/xml-events"
+                width="70"
+                height="70"
+              >
+                
                 <use
                   height="60"
                   width="65"
-                  x="102"
-                  y="30"
+                  x="0"
+                  y="0"
                   href="./images/icons.svg#icon-diagram-1"
                 ></use>
               </svg>
+            </div>
+
               <h3 class="img-row__h3">lorem ipsum</h3>
               <p class="img-row__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam culpa quisquam natus velit, sit totam provident
-                placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
-                illum nulla! Tempore, corrupti asperiores?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <svg height="120" width="270">
-                <rect height="120" width="270" fill="#F5F4FA" rx="4" />
-
+              <div class="img-row__box">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:ev="http://www.w3.org/2001/xml-events"
+                width="70"
+                height="70"
+              >
+                
                 <use
                   height="60"
                   width="65"
-                  x="102"
-                  y="30"
+                  x="0"
+                  y="0"
                   href="./images/icons.svg#icon-astronaut-1"
                 ></use>
               </svg>
+            </div>
+
               <h3 class="img-row__h3">lorem ipsum</h3>
               <p class="img-row__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam culpa quisquam natus velit, sit totam provident
-                placeat eligendi qui quae ex voluptatem voluptates ipsa ipsam,
-                illum nulla! Tempore, corrupti asperiores?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
           </ul>
@@ -209,7 +229,7 @@
       </section>
       
       <section class="section section--padding">
-        <div class="container">
+        <div class="container container--hide">
           <h2 class="section-title">Czym się zajmujemy</h2>
           <ul class="img-row">
             <li class="relative">
@@ -246,15 +266,15 @@
       <!--nasz zespół-->
 
       <section class="section section--bg-color">
-        <div class="container">
-          <h2 class="section-title">Nasz zespół</h2>
-          <ul class="img-row">
+        <div class="container container--bottom60">
+          <h2 class="member__title">Nasz zespół</h2>
+          <ul class="member__wrapper">
             <li>
               <figure class="member">
-                <img class="img-row__box"
+                <img class="member__member"
                   src="images/img(0).jpg"
-                  height="260"
-                  width="270"
+                  height="460"
+                  width="450"
                   alt="John Doe"
                 />
                 <figcaption class="member__bg-color">
@@ -293,10 +313,10 @@
             </li>
             <li>
               <figure class="member">
-                <img class="img-row__box"
+                <img class="member__member"
                   src="images/img(1).jpg"
-                  height="260"
-                  width="270"
+                  height="460"
+                  width="450"
                   alt="John Doe"
                 />
                 <figcaption class="member__bg-color">
@@ -334,10 +354,10 @@
             </li>
             <li>
               <figure class="member">
-                <img class="img-row__box"
+                <img class="member__member"
                   src="images/img(2).jpg"
-                  height="260"
-                  width="270"
+                  height="460"
+                  width="450"
                   alt="John Doe"
                 />
                 <figcaption class="member__bg-color">
@@ -375,10 +395,10 @@
             </li>
             <li>
               <figure class="member">
-                <img class="img-row__box"
+                <img class="member__member"
                   src="images/img(3).jpg"
-                  height="260"
-                  width="270"
+                  height="460"
+                  width="450"
                   alt="John Doe"
                 />
                 <figcaption class="member__bg-color">
@@ -473,7 +493,7 @@
     </main>
 
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+      <button class="menu-toggl js-close-menu">
         <svg
           fill="currentColor"
           viewBox="0 0 20 20"

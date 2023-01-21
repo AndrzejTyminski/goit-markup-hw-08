@@ -1,14 +1,25 @@
 .container 
 {
-  max-width: 1200px;
+
+  max-width: 480px;
   margin: 0 auto;
+  
+  &--hide{
+    display: none;
+  }
+
+  &--bottom60
+  {
+    padding-bottom: 60px;
+  }
+
 }
 
   
 .section
 {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  // padding-bottom: 94px;
+  // padding-top: 94px;
 
   &--bg-color 
   {
@@ -27,8 +38,15 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../images/img-overlay.jpeg");
-  max-width: 1600px;
+  
+  
+  
+  
+
   margin: 0 auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   }
 }
 

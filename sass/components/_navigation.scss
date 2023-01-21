@@ -1,18 +1,31 @@
 .header-line {
   border-bottom: 1px solid #ececec;
-  height: 80px;
+  height: 60px;
 }
 
+
 .main-nav {
-  display: flex;
+
+  &__mobile-flex
+  {
+    display: flex;
+align-items: flex-end;
+justify-content: space-between;
+  
+  }
+  
+  // display: flex;
   justify-content: space-between;
   align-items: center;
 
   &__logo-apk {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 24px;
+    padding-top: 16px;
+    margin-left: 15px;
+
+    // display: flex;
+ 
+
+   
   }
 
   &__logo {
@@ -35,7 +48,8 @@
   }
 
   &__apk {
-    display: flex;
+    display: none;
+    // display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding-inline-start: 0px;
@@ -46,6 +60,7 @@
   }
 
   &__apk-item {
+    display: none;
     text-decoration: none;
     list-style-type: none;
     color: inherit;
@@ -73,7 +88,7 @@
   }
 
   &__contacts {
-    display: flex;
+    display: none;
     padding-left: 0px;
     margin-top: 32px;
     align-items: baseline;
