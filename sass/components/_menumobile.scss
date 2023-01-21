@@ -25,19 +25,19 @@
   justify-content: flex-end;
   justify-content: center;
   margin-right: 15px;
-
   padding: 0;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
-}
-
-@media (min-width: 768px) {
-  .menu-toggl {
-    display: none;
+  @media (min-width: 768px) {
+    .menu-toggl {
+      display: none;
+    }
   }
 }
+
+
 
 .menu-toggl:hover,
 .menu-toggl:focus {

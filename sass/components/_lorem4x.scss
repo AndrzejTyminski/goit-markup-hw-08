@@ -1,10 +1,18 @@
 .img-row {
-
   gap: 30px;
   padding: 0 15px;
-  margin: 0;
+
   list-style: none;
+  margin: 0 auto;
   margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__li {
+    @media (min-width: 768px) {
+      width: 354px;
+    }
+  }
 
   &__box {
     display: flex;
@@ -16,9 +24,6 @@
     height: 120px;
     margin-bottom: 30px;
     justify-content: center;
-  }
-  &--nowrap {
-    flex-wrap: nowrap;
   }
 
   &__h3 {
@@ -35,3 +40,7 @@
     margin-bottom: 30px;
   }
 }
+
+// @media (min-width: 768px) {
+//   max-width: 768px;
+// }

@@ -7,11 +7,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 768px) {
+      flex-basis: 40%;
+    }
   }
 
   &__items {
     display: flex;
     flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
   }
   &__addres {
     padding: 0;
@@ -70,6 +80,9 @@
     align-items: center;
     margin-top: 12px;
     margin-bottom: 60px;
+    @media (min-width: 768px) {
+      flex-basis: 40%;
+    }
   }
   &__h3 {
     margin-top: 0;
@@ -128,10 +141,9 @@
     color: $white;
 
     &:focus,
-    &:hover  {
+    &:hover {
       border-color: $blue-hover;
     }
-
 
     &--placeholder::placeholder {
       font-weight: 400;
