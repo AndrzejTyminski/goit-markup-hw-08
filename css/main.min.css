@@ -208,7 +208,7 @@
 .section-title {
   text-align: center;
   margin: 0;
-  font-size: 36px;
+  font-size: 28px;
   margin-top: 60px;
   padding-top: 60px;
 }
@@ -311,9 +311,9 @@
 
 .our-customers {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
+  justify-content: center;
   list-style: none;
 }
 .our-customers__icon-box {
@@ -322,6 +322,11 @@
 }
 .our-customers__icon-box:hover, .our-customers__icon-box:focus {
   fill: #2196f3;
+}
+.our-customers__section {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 28px;
 }
 .our-customers__icon {
   outline: 1px solid #afb1b8;
