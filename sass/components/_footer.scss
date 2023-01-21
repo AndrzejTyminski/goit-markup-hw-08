@@ -23,7 +23,6 @@
     }
   }
   &__address-city {
-  
     font-size: 14px;
     text-decoration: none;
     font-style: normal;
@@ -117,7 +116,6 @@
   }
   &__email-input {
     width: min(93.75vw, 450px);
-
     height: 50px;
     line-height: 0;
     padding-left: 1em;
@@ -129,9 +127,11 @@
     background-color: $footer-color;
     color: $white;
 
-    &:focus {
+    &:focus,
+    &:hover  {
       border-color: $blue-hover;
     }
+
 
     &--placeholder::placeholder {
       font-weight: 400;
