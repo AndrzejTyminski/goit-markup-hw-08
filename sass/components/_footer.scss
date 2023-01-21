@@ -2,9 +2,16 @@
   background-color: $footer-color;
   padding: 60px 0;
 
+  &__center {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__items {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
   }
   &__addres {
     padding: 0;
@@ -12,7 +19,7 @@
     list-style: none;
 
     &--margin {
-      margin-top: 20px;
+      margin: 20px;
     }
   }
   &__address-city {
@@ -31,8 +38,11 @@
     text-decoration: none;
     line-height: 2.71;
     font-size: 14px;
-    margin: 19px 0;
+    margin: 0px 0;
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       text-decoration: underline;
@@ -44,14 +54,21 @@
     line-height: 1.71;
     text-decoration: none;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       text-decoration: underline;
     }
   }
   &__social {
-    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
     margin-top: 12px;
+    margin-bottom: 60px;
   }
   &__h3 {
     margin-top: 0;
@@ -83,15 +100,21 @@
   }
 
   &__newsletter {
-    margin: 12px 0 0 78px;
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__newsletter-wrapper {
     display: flex;
     align-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
   &__email-input {
-    width: 358px;
+    width: min(93.75vw, 450px);
+
     height: 50px;
     line-height: 0;
     padding-left: 1em;
@@ -130,6 +153,7 @@
     padding-left: 42px;
     border: 0px;
     font-size: 16px;
+    margin-top: 20px;
   }
 
   &__svgSignUp {
