@@ -92,6 +92,12 @@
     align-items: center;
   }
 }
+@media (min-width: 1200px) {
+  .main-nav__mobile-flex {
+    justify-content: flex-start;
+    gap: 93px;
+  }
+}
 .main-nav__logo-apk {
   padding-top: 16px;
   margin-left: 15px;
@@ -171,12 +177,14 @@
   .main-nav__contacts {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1200px) {
   .main-nav__contacts {
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 230px;
   }
 }
 .main-nav__contacts-data {

@@ -20,6 +20,10 @@
     @media (min-width: 768px) {
       align-items: center;
     }
+    @media (min-width: 1200px) {
+      justify-content: flex-start;
+      gap: 93px;
+    }
   }
 
   // display: flex;
@@ -105,10 +109,12 @@
     @media (min-width: 768px) {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
     }
     @media (min-width: 1200px) {
       flex-direction: row;
-      justify-content: space-between;
+       justify-content: space-between;
+       margin-left: 230px;
     }
   }
 
