@@ -949,7 +949,7 @@
 }
 @media (min-width: 1200px) {
   .custom-check-box svg {
-    top: 6px;
+    top: 5px;
   }
 }
 .custom-check-box input[type=checkbox]:checked + svg {
