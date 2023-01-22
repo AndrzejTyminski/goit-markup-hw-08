@@ -1,6 +1,5 @@
 .header-line {
   border-bottom: 1px solid #ececec;
-
   padding: 13px 0;
 }
 
@@ -12,9 +11,6 @@
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
-  }
-
-  &__flexr {
   }
 
   &__mobile-flex {
@@ -31,12 +27,11 @@
   align-items: center;
 
   &__logo-apk {
+    padding-top: 16px;
+    margin-left: 15px;
     @media (min-width: 768px) {
       display: flex;
     }
-
-    padding-top: 16px;
-    margin-left: 15px;
   }
 
   &__logo {
@@ -60,25 +55,19 @@
 
   &__apk {
     display: none;
-    // display: flex;
-    @media (min-width: 768px) {
-      display: flex;
-    }
-
     flex-wrap: wrap;
     margin: 0;
     padding-inline-start: 0px;
     gap: 50px;
     align-items: center;
-    // margin-left: 93px;
     list-style: none;
+    @media (min-width: 768px) {
+      display: flex;
+    }
   }
 
   &__apk-item {
     display: none;
-    @media (min-width: 768px) {
-      display: flex;
-    }
     text-decoration: none;
     list-style-type: none;
     color: inherit;
@@ -86,6 +75,9 @@
     font-weight: 500;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media (min-width: 768px) {
+      display: flex;
+    }
 
     &:hover {
       color: $blue-hover;
@@ -107,16 +99,13 @@
 
   &__contacts {
     display: none;
+    padding-left: 0px;
+    align-items: baseline;
+    list-style: none;
     @media (min-width: 768px) {
       display: flex;
       flex-direction: column;
-      // margin-top: 10px;
-      // padding-right: 15px;
     }
-    padding-left: 0px;
-    // margin-top: 32px;
-    align-items: baseline;
-    list-style: none;
   }
 
   &__contacts-data {
