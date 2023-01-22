@@ -557,11 +557,16 @@
   flex-direction: column;
   align-items: center;
   margin-top: 12px;
-  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   .footer__social {
     flex-basis: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__social {
+    flex-basis: 60%;
+    max-width: 354px;
   }
 }
 .footer__h3 {

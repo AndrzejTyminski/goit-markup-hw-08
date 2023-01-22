@@ -94,9 +94,14 @@
 
     align-items: center;
     margin-top: 12px;
-    margin-bottom: 60px;
+    
     @media (min-width: 768px) {
       flex-basis: 40%;
+    }
+
+    @media (min-width: 1200px) {
+      flex-basis: 60%;
+      max-width: 354px;
     }
   }
   &__h3 {
