@@ -879,6 +879,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .modal__regulamin-font {
@@ -934,20 +935,21 @@
   width: 16px;
   height: 15px;
   border-radius: 2px;
+  margin-right: 8px;
 }
 .custom-check-box svg {
   position: absolute;
   opacity: 0;
-  top: 18px;
+  top: 5px;
 }
 @media (max-width: 470px) {
   .custom-check-box svg {
-    top: 29px;
+    top: 16px;
   }
 }
 @media (min-width: 1200px) {
   .custom-check-box svg {
-    top: 19px;
+    top: 6px;
   }
 }
 .custom-check-box input[type=checkbox]:checked + svg {

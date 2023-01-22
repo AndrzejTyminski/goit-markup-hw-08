@@ -173,9 +173,11 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: $gray;
+    text-align: center;
     //white-space: pre;
     @media (min-width: 1200px) {
       font-size: 14px;
+   
     }
 
     &--marginLeft {
@@ -225,16 +227,17 @@
     width: 16px;
     height: 15px;
     border-radius: 2px;
+    margin-right: 8px;
   }
   svg {
     position: absolute;
     opacity: 0;
-    top: 18px;
+    top: 5px;
     @media (max-width: 470px) {
-      top: 29px;
+      top: 16px;
     }
     @media (min-width: 1200px) {
-      top: 19px;
+      top: 6px;
     }
   }
 
