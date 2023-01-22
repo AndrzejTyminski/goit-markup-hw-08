@@ -1,11 +1,16 @@
 .container {
   max-width: 480px;
+  margin: 0 auto;
 
   @media (min-width: 768px) {
-    max-width: 768px;
+     max-width: 768px;
+     text-align: center;
+    // display: flex;
+    // justify-content: space-around;
+
   }
 
-  margin: 0 auto;
+
 
   &--hide {
     display: none;

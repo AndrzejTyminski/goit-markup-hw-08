@@ -5,6 +5,7 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+    text-align: center;
   }
 }
 .container--hide {
@@ -37,22 +38,31 @@
 
 .header-line {
   border-bottom: 1px solid #ececec;
-  height: 60px;
+  padding: 13px 0;
 }
 
 .main-nav {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media (min-width: 768px) {
   .main-nav {
-    display: flex;
+    display: block;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .main-nav__mobile-flex {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .main-nav__mobile-flex {
+    align-items: center;
+  }
 }
 .main-nav__logo-apk {
   padding-top: 16px;
@@ -86,7 +96,6 @@
           padding-inline-start: 0px;
   gap: 50px;
   align-items: center;
-  margin-left: 93px;
   list-style: none;
 }
 @media (min-width: 768px) {
@@ -127,7 +136,6 @@
 .main-nav__contacts {
   display: none;
   padding-left: 0px;
-  margin-top: 32px;
   align-items: baseline;
   list-style: none;
 }
@@ -135,8 +143,6 @@
   .main-nav__contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    padding-right: 15px;
   }
 }
 .main-nav__contacts-data {
@@ -151,7 +157,6 @@
 }
 .main-nav__contacts-icon {
   margin-right: 10px;
-  margin-left: 32px;
 }
 .main-nav__contacts-icon:hover {
   fill: #2196f3;
