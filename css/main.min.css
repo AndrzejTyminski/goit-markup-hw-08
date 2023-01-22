@@ -356,6 +356,7 @@
   padding: 0 15px;
   margin: 0;
   list-style: none;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .member__wrapper {
