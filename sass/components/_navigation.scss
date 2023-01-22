@@ -1,7 +1,7 @@
 .header-line {
-    border-bottom: 1px solid #ececec;
-    height: 80px;
-    padding-top: 27px;
+  border-bottom: 1px solid #ececec;
+  height: 80px;
+  padding-top: 27px;
 }
 
 .main-nav {
@@ -100,9 +100,7 @@
       bottom: -26px;
       border-radius: 2px;
       @media (min-width: 1200px) {
-
         bottom: -30px;
-  
       }
     }
   }
@@ -119,8 +117,8 @@
     }
     @media (min-width: 1200px) {
       flex-direction: row;
-       justify-content: space-between;
-       margin-left: 260px;
+      justify-content: space-between;
+      margin-left: 260px;
     }
   }
 
@@ -129,7 +127,6 @@
     text-decoration: none;
     font-size: 14px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 
     &:hover {
       color: $blue-hover;
@@ -140,13 +137,12 @@
       margin-right: 30px;
     }
   }
-  
-    &__contacts-data2 {
+
+  &__contacts-data2 {
     color: $gray;
     text-decoration: none;
     font-size: 14px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 
     &:hover {
       color: $blue-hover;
