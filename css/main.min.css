@@ -50,7 +50,7 @@
   }
 }
 .main-nav__mobile-flex {
-  adisplay: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
@@ -900,7 +900,6 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  justify-content: center;
   margin-right: 15px;
   padding: 0;
   background-color: transparent;
