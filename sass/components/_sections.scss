@@ -7,14 +7,10 @@
     max-width: 768px;
     text-align: center;
     padding-left: 0;
-    // display: flex;
-    // justify-content: space-around;
+
   }
   @media (min-width: 1200px) {
     max-width: 1200px;
-    // text-align: center;
-    // display: flex;
-    // justify-content: space-around;
   }
 
   &--hide {
@@ -31,8 +27,7 @@
 }
 
 .section {
-  // padding-bottom: 94px;
-  // padding-top: 94px;
+
 
   &--bg-color {
     background-color: $light-gray;
