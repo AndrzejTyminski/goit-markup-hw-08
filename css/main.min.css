@@ -173,6 +173,12 @@
     flex-direction: column;
   }
 }
+@media (min-width: 1200px) {
+  .main-nav__contacts {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .main-nav__contacts-data {
   color: #757575;
   text-decoration: none;
@@ -182,6 +188,11 @@
 .main-nav__contacts-data:hover {
   color: #2196f3;
   fill: #2196f3;
+}
+@media (min-width: 1200px) {
+  .main-nav__contacts-data {
+    margin-right: 30px;
+  }
 }
 .main-nav__contacts-icon {
   margin-right: 10px;
