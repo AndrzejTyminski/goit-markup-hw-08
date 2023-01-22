@@ -480,6 +480,11 @@
     justify-content: space-around;
   }
 }
+@media (min-width: 1200px) {
+  .footer__items {
+    flex-wrap: nowrap;
+  }
+}
 .footer__addres {
   padding: 0;
   margin: 0;
@@ -577,6 +582,11 @@
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 1200px) {
+  .footer__newsletter-wrapper {
+    flex-direction: row;
+  }
+}
 .footer__email-input {
   width: min(93.75vw, 450px);
   height: 50px;
@@ -630,6 +640,11 @@
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .footer__btn-email {
+    margin: 0;
+  }
 }
 .footer__svgSignUp {
   position: absolute;
