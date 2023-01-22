@@ -533,7 +533,7 @@
   list-style: none;
 }
 .footer__addres--margin {
-  margin: 20px 0 60px;
+  margin: 20px 0 41px;
 }
 .footer__address-city {
   font-size: 14px;
@@ -622,6 +622,12 @@
   border-radius: 50%;
   fill: #afb1b8;
   background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .footer__social-icon {
+    margin-bottom: 0px;
+  }
 }
 .footer__social-icon:hover {
   fill: #ffffff;
@@ -881,6 +887,7 @@
 }
 .modal__regulamin-font--marginLeft {
   margin-left: 8px;
+  white-space: pre;
 }
 .modal__regulamin-font-link:link {
   font-family: "Roboto";
