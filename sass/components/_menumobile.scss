@@ -30,14 +30,11 @@
   cursor: pointer;
   border: none;
   border-radius: 50%;
+
   @media (min-width: 768px) {
-    .menu-toggl {
-      display: none;
-    }
+    display: none;
   }
 }
-
-
 
 .menu-toggl:hover,
 .menu-toggl:focus {
@@ -57,9 +54,8 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
-  
-  &--margin-top
-  {
+
+  &--margin-top {
     margin-top: 64px;
   }
 
@@ -68,8 +64,7 @@
     margin-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     padding-right: 10px;
-    &--rmargin
-    {
+    &--rmargin {
       border-right: 0px;
     }
 

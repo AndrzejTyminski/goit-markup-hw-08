@@ -908,7 +908,7 @@ textarea::placeholder {
   border-radius: 50%;
 }
 @media (min-width: 768px) {
-  .menu-toggl .menu-toggl {
+  .menu-toggl {
     display: none;
   }
 }
