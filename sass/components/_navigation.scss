@@ -1,6 +1,20 @@
 .header-line {
   border-bottom: 1px solid #ececec;
-  padding: 13px 0;
+  // padding: 13px 0;
+height: 80px;
+    padding-top: 27px;
+
+    // @media (min-width: 768px) {
+
+    //   height: 80px;
+
+    // }
+
+    // @media (min-width: 1200px) {
+
+    //   height: 80px;
+
+    // }
 }
 
 .main-nav {
@@ -98,6 +112,11 @@
       transform: translatex(50%);
       bottom: -26px;
       border-radius: 2px;
+      @media (min-width: 1200px) {
+
+        bottom: -30px;
+  
+      }
     }
   }
 
