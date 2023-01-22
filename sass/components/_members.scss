@@ -13,6 +13,9 @@
     @media (min-width: 768px) {
       width: 354px;
     }
+    @media (min-width: 768px) {
+      width: 260px;
+    }
   }
 
   &__member {
@@ -35,8 +38,10 @@
     text-align: center;
     //  margin: 0, 0, 30px, 0;
     padding-top: 60px;
-
     font-size: 28px;
+    @media (min-width: 1200px) {
+      font-size: 36px;
+    }
   }
 
   &__wrapper {

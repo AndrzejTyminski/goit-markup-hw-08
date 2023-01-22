@@ -8,8 +8,19 @@
     text-align: center;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 .container--hide {
   display: none;
+}
+@media (min-width: 1200px) {
+  .container--hide {
+    display: block;
+    margin-bottom: 94px;
+  }
 }
 .container--bottom60 {
   padding-bottom: 60px;
@@ -24,16 +35,33 @@
 .section--image-overlay {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-overlay.jpeg");
   margin: 0 auto;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
+  abackground-repeat: no-repeat;
+  abackground-position: center;
+}
+@media (min-width: 1200px) {
+  .section--image-overlay {
+    max-width: 1600px;
+    height: 600px;
+    text-align: center;
+  }
 }
 
 .section-title {
   text-align: center;
+  text-align: center;
   padding-bottom: 50px;
   margin: 0;
-  font-size: 36px;
+  font-size: 28px;
+  margin-top: 60px;
+  padding-top: 60px;
+}
+@media (min-width: 1200px) {
+  .section-title {
+    margin-top: 0;
+    padding-bottom: 0;
+    font-size: 36px;
+  }
 }
 
 .header-line {
@@ -170,6 +198,12 @@
   margin: 0 auto;
   height: 400px;
 }
+@media (min-width: 1200px) {
+  .main-banner__wrapper {
+    max-width: 1200px;
+    justify-content: flex-end;
+  }
+}
 .main-banner__text {
   font-family: roboto;
   font-style: normal;
@@ -180,6 +214,11 @@
   margin: 0px;
   margin-bottom: 30px;
   line-height: 42px;
+}
+@media (min-width: 1200px) {
+  .main-banner__text {
+    font-size: 44px;
+  }
 }
 .main-banner__btn {
   color: var(--dark-black);
@@ -223,6 +262,11 @@
     width: 354px;
   }
 }
+@media (min-width: 1200px) {
+  .img-row__li {
+    width: 270px;
+  }
+}
 .img-row__box {
   display: flex;
   padding-top: 25px;
@@ -245,14 +289,6 @@
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 30px;
-}
-
-.section-title {
-  text-align: center;
-  margin: 0;
-  font-size: 28px;
-  margin-top: 60px;
-  padding-top: 60px;
 }
 
 .relative {
@@ -292,6 +328,11 @@
     width: 354px;
   }
 }
+@media (min-width: 768px) {
+  .member__max354 {
+    width: 260px;
+  }
+}
 .member__member {
   border-radius: 4px;
   display: block;
@@ -304,6 +345,11 @@
   text-align: center;
   padding-top: 60px;
   font-size: 28px;
+}
+@media (min-width: 1200px) {
+  .member__title {
+    font-size: 36px;
+  }
 }
 .member__wrapper {
   gap: 30px;

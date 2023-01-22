@@ -1,12 +1,16 @@
 .main-banner {
-  &__wrapper
-  {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 480px;
     margin: 0 auto;
     height: 400px;
+
+    @media (min-width: 1200px) {
+      max-width: 1200px;
+      justify-content: flex-end;
+    }
   }
 
   &__text {
@@ -20,6 +24,9 @@
     // padding-top: 121px;
     margin-bottom: 30px;
     line-height: 42px;
+    @media (min-width: 1200px) {
+    font-size: 44px;
+    }
   }
 
   &__btn {
@@ -51,7 +58,6 @@
     &--margin {
       margin: 0 auto;
       // margin-bottom: 118px;
-
     }
   }
 }
