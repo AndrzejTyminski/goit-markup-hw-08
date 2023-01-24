@@ -22,7 +22,8 @@
   position: fixed;
 
   width: min(93vw, 450px);
-  height: 609px;
+  // height: 609px;
+  max-height: 609px;
 
   @media (min-width: 1200px) {
     height: 581px;
